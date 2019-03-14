@@ -49,7 +49,8 @@ class ViewController: UIViewController {
         print("The Value of the slider is:\(slider.value)")
       
         currentValue=lroundf(slider.value)
-    } Func startNewRound(){
+    }
+    funstartNewRound(){
     targetValue = 1 + Int (arc4random_uniform(100))
     currentValue = 50
     silder.value = currentValue
